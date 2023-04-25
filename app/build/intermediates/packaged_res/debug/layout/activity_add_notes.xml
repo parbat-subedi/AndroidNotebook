@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context=".AddNotesActivity">
+
+    <EditText
+        android:id="@+id/edit_note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:hint="Title"
+        android:background="@drawable/rounded_corner"
+        android:padding="16dp"
+        android:layout_marginTop="12dp"
+        />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/spinerCategory"
+        android:layout_below="@+id/edit_note_title"
+        android:background="@drawable/rounded_corner"
+        android:padding="16dp"
+        android:layout_marginTop="12dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_note_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinerCategory"
+        android:background="@drawable/bg_corner"
+        android:padding="16dp"
+        android:layout_marginTop="12dp"
+        android:height="400dp"
+        android:hint="Description"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_note"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Add Note" />
+
+
+</RelativeLayout>
