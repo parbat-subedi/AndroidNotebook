@@ -16,7 +16,9 @@ drawable img_2
 drawable rounded_corner
 id add_note
 id btnAddNote
+id cardColor
 id category
+id color_list
 id description
 id display_note_category
 id display_note_description
@@ -31,6 +33,7 @@ layout activity_add_notes
 layout activity_main
 layout activity_note_detail
 layout item_list_view
+layout item_note_color
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name

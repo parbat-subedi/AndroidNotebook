@@ -2912,6 +2912,7 @@ id buttonPanel
 id cache_measures
 id callMeasure
 id cancel_button
+id cardColor
 id carryVelocity
 id category
 id center
@@ -2932,6 +2933,7 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id color_list
 id compress
 id confirm_button
 id constraint
@@ -3438,6 +3440,7 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout item_list_view
+layout item_note_color
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

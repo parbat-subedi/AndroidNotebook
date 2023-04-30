@@ -36,9 +36,10 @@ public class MainActivity extends AppCompatActivity {
                 String title = intent.getExtras().getString("note_title");
                 String description = intent.getExtras().getString("note_description");
                 String category = intent.getExtras().getString("note_category");
+                Integer color = intent.getExtras().getInt("Color");
                 Toast.makeText(MainActivity.this, "Title :" + title + " Description :" + category  , Toast.LENGTH_SHORT).show();
 
-                Note note = new Note(title,description,category);
+                Note note = new Note(title,description,category,color);
                 adapter.addData(note);
 
                 dbHelper.addNote(note);
@@ -78,12 +79,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(Note note) {
 
-                Log.d("TAG",""+note.category);
+                Log.d("TAG",""+note.category); //used for debugging in android
 
                 Intent intent= new Intent(MainActivity.this, NoteDetailActivity.class);
                 intent.putExtra("tvTitle",note.getTitle());
                 intent.putExtra("tvDescription",note.getDescription());
                 intent.putExtra("tvCategory",note.getCategory());
+//                intent.putExtra("Color",note.getColor());
                 startActivity(intent);
 
             }

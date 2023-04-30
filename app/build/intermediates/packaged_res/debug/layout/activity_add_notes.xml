@@ -40,6 +40,17 @@
         android:height="400dp"
         android:hint="Description"/>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/color_list"
+        tools:listitem="@layout/item_note_color"
+        android:layout_below="@id/edit_note_description"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="horizontal"
+        app:spanCount="2"
+        />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
