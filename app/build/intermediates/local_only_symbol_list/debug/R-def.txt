@@ -14,9 +14,14 @@ drawable img
 drawable img_1
 drawable img_2
 drawable rounded_corner
+font roboto_black
+font roboto_blackitalic
+font roboto_bold
 id add_note
+id add_note_toolbar_id
 id btnAddNote
 id cardColor
+id card_radius
 id category
 id color_list
 id description
@@ -29,6 +34,7 @@ id llNoNotes
 id recycleview_notes
 id spinerCategory
 id title
+id toolbar_id
 layout activity_add_notes
 layout activity_main
 layout activity_note_detail

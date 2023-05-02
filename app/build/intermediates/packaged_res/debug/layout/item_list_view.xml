@@ -6,6 +6,8 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:layout_margin="20dp"
+    android:id="@+id/card_radius"
+    app:cardCornerRadius="10dp"
     tools:context=".ListView"
     app:cardElevation="10dp">
 

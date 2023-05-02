@@ -2808,6 +2808,9 @@ drawable rounded_corner
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font roboto_black
+font roboto_blackitalic
+font roboto_bold
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2880,6 +2883,7 @@ id actions
 id activity_chooser_view_content
 id add
 id add_note
+id add_note_toolbar_id
 id alertTitle
 id aligned
 id all
@@ -2913,6 +2917,7 @@ id cache_measures
 id callMeasure
 id cancel_button
 id cardColor
+id card_radius
 id carryVelocity
 id category
 id center
@@ -3280,6 +3285,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbar_id
 id top
 id topPanel
 id touch_outside

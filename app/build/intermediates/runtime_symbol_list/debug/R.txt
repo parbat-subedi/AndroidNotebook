@@ -2807,6 +2807,9 @@ int drawable rounded_corner 0x7f0700e0
 int drawable test_level_drawable 0x7f0700e1
 int drawable tooltip_frame_dark 0x7f0700e2
 int drawable tooltip_frame_light 0x7f0700e3
+int font roboto_black 0x7f130000
+int font roboto_blackitalic 0x7f130001
+int font roboto_bold 0x7f130002
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
@@ -2879,6 +2882,7 @@ int id actions 0x7f080044
 int id activity_chooser_view_content 0x7f080045
 int id add 0x7f080046
 int id add_note 0x7f080047
+int id add_note_toolbar_id 0x7f0801fc
 int id alertTitle 0x7f080048
 int id aligned 0x7f080049
 int id all 0x7f08004a
@@ -2912,6 +2916,7 @@ int id cache_measures 0x7f080065
 int id callMeasure 0x7f080066
 int id cancel_button 0x7f080067
 int id cardColor 0x7f0801f9
+int id card_radius 0x7f0801fa
 int id carryVelocity 0x7f080068
 int id category 0x7f080069
 int id center 0x7f08006a
@@ -3279,6 +3284,7 @@ int id title 0x7f0801d2
 int id titleDividerNoCustom 0x7f0801d3
 int id title_template 0x7f0801d4
 int id toggle 0x7f0801d5
+int id toolbar_id 0x7f0801fb
 int id top 0x7f0801d6
 int id topPanel 0x7f0801d7
 int id touch_outside 0x7f0801d8
