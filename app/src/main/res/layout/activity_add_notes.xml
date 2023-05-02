@@ -7,15 +7,20 @@
     android:orientation="vertical"
     android:layout_margin="20dp"
     tools:context=".AddNotesActivity">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/add_note_toolbar_id"
+        app:title="Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
     <EditText
         android:id="@+id/edit_note_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
         android:hint="Title"
         android:background="@drawable/rounded_corner"
         android:padding="16dp"
+        android:layout_below="@+id/add_note_toolbar_id"
         android:layout_marginTop="12dp"
         />
 

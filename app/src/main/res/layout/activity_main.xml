@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+   <com.google.android.material.appbar.MaterialToolbar
+       android:id="@+id/toolbar_id"
+       app:title="Toolbar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,6 +37,7 @@
         tools:listitem="@layout/item_list_view"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:orientation="vertical"
+        android:layout_below="@id/toolbar_id"
         android:layout_height="wrap_content"
         android:id="@+id/recycleview_notes"/>
 
