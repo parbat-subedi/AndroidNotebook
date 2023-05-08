@@ -19,9 +19,10 @@ public class Note {
         this.title = title;
         this.description = description;
         this.category = category;
-        Color = color;
+        this.Color = color;
         this.id = id;
     }
+
 
     public Note(String title, String description, String category, Integer Color) {
         this.title = title;
